@@ -1,0 +1,5 @@
+{
+  "cmd": ["openvpn", "--config", "$file"],
+  "working_dir": "${project_path:${folder}}",
+  "selector": "source.openvpn"
+}

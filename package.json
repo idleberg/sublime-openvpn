@@ -1,0 +1,14 @@
+{
+  "name": "sublime-openvpn",
+  "version": "0.0.0",
+  "author": "Jan T. Sott",
+  "repository": "https://github.com/idleberg/sublime-openvpn",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "sublime-linter": "^0.4.0"
+  },
+  "scripts": {
+    "test": "sublime-linter"
+  }
+}
