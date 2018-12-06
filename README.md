@@ -3,7 +3,7 @@
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/OpenVPN.svg?style=flat-square)](https://packagecontrol.io/packages/OpenVPN)
 [![GitHub](https://img.shields.io/github/release/idleberg/sublime-openvpn.svg?style=flat-square)](https://github.com/idleberg/sublime-openvpn/releases)
-[![Travis](https://img.shields.io/travis/idleberg/sublime-openvpn.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-openvpn)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/sublime-openvpn)](https://circleci.com/gh/idleberg/sublime-openvpn/)
 
 Language support, snippets and build-system for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
 
