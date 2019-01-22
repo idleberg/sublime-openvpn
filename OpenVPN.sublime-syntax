@@ -4,6 +4,7 @@
 name: OpenVPN Configuration
 file_extensions:
   - openvpn
+  - ovpn
   - conf
 scope: source.openvpn
 variables:
