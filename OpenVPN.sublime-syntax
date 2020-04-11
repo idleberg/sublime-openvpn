@@ -40,13 +40,13 @@ contexts:
         - meta_scope: string.quoted.double.openvpn
         - match: '"'
           captures:
-            0: punctuation.definition.string.end.openvpn
+            0: punctuation.definition.string.end.html
           pop: true
         - match: '{{escaped}}'
           scope: constant.character.escape.openvpn
     - match: (</?)((?i:ca|cert|key|tls-auth )\b)
       captures:
-        1: punctuation.definition.tag.begin.openvpn
+        1: punctuation.definition.tag.begin.html
         2: entity.name.tag.structure.any.openvpn
       push:
         - meta_scope: meta.tag.structure.any.openvpn
