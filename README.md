@@ -27,6 +27,11 @@ Language support, snippets and build-system for [OpenVPN](https://github.com/Ope
 1. Download the latest [stable release](https://github.com/idleberg/sublime-openvpn/releases)
 2. Unzip the archive to your Sublime Text `Packages` directory
 
+## Related
+
+- [atom-openvpn](https://github.com/idleberg/atom-language-openvpn)
+- [vscode-openvpn](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
+
 ## License
 
 This work is licensed under the [The MIT License](LICENSE).
