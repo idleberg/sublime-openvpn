@@ -23,7 +23,7 @@
 
         <dict>
             <key>match</key>
-            <string>^\s*(?i)(ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random)?|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b</string>
+            <string>^\s*(?i)(auth-nocache|ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random(-hostname)?)?|reneg-sec|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b</string>
             <key>name</key>
             <string>keyword.language.openvpn</string>
         </dict>
@@ -157,11 +157,28 @@
               </dict>
             </dict>
         </dict>
+        <dict>
+            <key>begin</key>
+            <string>^-----</string>
+            <key>captures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.comment.openvpn</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>-----$</string>
+            <key>name</key>
+            <string>comment.block.openvpn</string>
+        </dict>
+    </array>
 
     <key>scopeName</key>
     <string>source.openvpn</string>
 
     <key>uuid</key>
-    <string>0975D7C6-38C6-41F8-BC2B-3C2876C31603</string>
+    <string>b7665bea-bdf5-4f06-ad7e-eba459f1e2fe</string>
 </dict>
 </plist>
