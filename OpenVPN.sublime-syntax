@@ -15,7 +15,7 @@ contexts:
   main:
     - match: (;|#).*$
       scope: comment.line.character.openvpn
-    - match: '^\s*(?i)(ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random)?|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b'
+    - match: '^\s*(?i)(auth-nocache|ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random(-hostname)?)?|reneg-sec|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b'
       scope: keyword.language.openvpn
     - match: '^\s*(?i)(comp-lzo)\b'
       scope: invalid.deprecated.openvpn
@@ -52,4 +52,13 @@ contexts:
         - meta_scope: meta.tag.structure.any.openvpn
         - match: '>'
           scope: punctuation.definition.tag.end.html
+          pop: true
+    - match: ^-----
+      captures:
+        0: punctuation.definition.comment.openvpn
+      push:
+        - meta_scope: comment.block.openvpn
+        - match: -----$
+          captures:
+            0: punctuation.definition.comment.openvpn
           pop: true
