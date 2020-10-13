@@ -3,8 +3,8 @@
 # http://www.sublimetext.com/docs/3/syntax.html
 name: OpenVPN Configuration
 file_extensions:
-  - openvpn
   - ovpn
+  - openvpn
   - conf
 scope: source.openvpn
 variables:
