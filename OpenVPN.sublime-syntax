@@ -23,7 +23,7 @@ contexts:
       scope: string.other.openvpn
     - match: '{{ipv6}}'
       scope: string.other.openvpn
-    - match: '\b([0-9]+(\.[0-9]+)*)\b'
+    - match: '\s+([0-9]+(\.[0-9]+)*)\s+'
       scope: constant.numeric.openvpn
     - match: '\s+(?i)(infinite|server|tap|tcp|tcp-client|tcp-server|tun|udp)\s+'
       scope: entity.other.attribute-name.openvpn
