@@ -29,7 +29,7 @@ Language support, snippets and build-system for [OpenVPN](https://github.com/Ope
 
 ## Related
 
-- [atom-openvpn](https://github.com/idleberg/atom-language-openvpn)
+- ~[atom-openvpn](https://github.com/idleberg/atom-language-openvpn)~
 - [vscode-openvpn](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
 
 ## License
