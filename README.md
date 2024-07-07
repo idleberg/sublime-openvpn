@@ -1,9 +1,8 @@
 # sublime-openvpn
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Package Control](https://packagecontrol.herokuapp.com/downloads/OpenVPN.svg?style=flat-square)](https://packagecontrol.io/packages/OpenVPN)
-[![GitHub](https://img.shields.io/github/release/idleberg/sublime-openvpn.svg?style=flat-square)](https://github.com/idleberg/sublime-openvpn/releases)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/sublime-openvpn)](https://circleci.com/gh/idleberg/sublime-openvpn/)
+[![License](https://img.shields.io/github/license/idleberg/sublime-openvpn?style=for-the-badge)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/idleberg/sublime-openvpn?style=for-the-badge)](https://github.com/idleberg/sublime-openvpn/releases)
+[![Package Control](https://img.shields.io/packagecontrol/dt/OpenVPN?style=for-the-badge)](https://packagecontrol.io/packages/OpenVPN)
 
 Language support, snippets and build-system for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
 
